@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background: rgba(27, 27, 27);
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.logo span{
+    color: rgb(40, 247, 247);
+}
+
+.menu_bar{
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu_bar ul li{
+    padding: 30px 40px;
+}
+
+.menu_bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.menu_bar ul li a:hover{
+    color: rgb(40, 247, 247);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.card{
+    background-color: rgb(44, 32, 32);
+    width: 220px;
+    height: 310px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-img{
+    background: rgb(255, 145, 0);
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1{
+    background-image: url('/img/pythonimg.png');
+}
+
+.car-2{
+
+    background-image: url('/img/html\ imgk.png')
+}
+
+.car-3{
+
+    background-image: url('/img/cssforproject.jpg')
+}
+
+.card h1{
+    padding: 10px;
+    color: white;
+}
+
+.card h1:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+
+
+.card p{
+    padding: 10px;
+    color: white;
+}
+
+.card p:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.card a{
+    background: black;
+    color: white;
+    padding: 15px 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: rgb(34, 187, 187);
+    transition: 0.5s;
+}
+
+.card a:hover{
+    background-color: rgb(128, 92, 92);
+    transition: 0.5s;
+}
+
+.main {
+    max-height: 550px;;
+    background-color: #1e2225;
+    color: white;
+    font-size: 38pt;
+    text-align: center;
+    line-height: 550px;
+ }
+
+.bmi{
+    width: 30%;
+    background-color: rgb(58, 66, 66);
+    padding: 10px;
+    border-radius: 11px;
+    border: solid;
+    text-align: center;
+    color: aquamarine;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+.bmi form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    line-height: 50px;
+}
+
+.bmi input{
+    margin-bottom: 25px;
+    padding: 5px;
+    background: none;
+    border: none;
+    border-bottom: solid;
+    color: rgb(53, 48, 48);
+}
+
+.bmi ::-webkit-input-placeholder{
+    padding: 10px;
+    color: rgb(36, 35, 35);
+    font-size: 14px;
+}
+
+.bmi button{
+    width: 200px;
+    padding: 15px;
+    margin-left: 20%;
+    background-color: rgb(75, 75, 75);
+    color: rgb(194, 194, 194);
+}
+
+.bmi button:hover{
+    transition: 0.5s;
+    background-color: rgb(78, 50, 50);
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 50%;
+    padding: 15px;
+    background-color: rgb(39, 38, 38);
+    margin-left: 27%;
+    margin-top: -0%;
+    border-radius: 10px;
+}
+
+.box{
+    background-color: rgb(44, 32, 32);
+    width: 220px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-img{
+
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-1{
+    background-image: url('../static/img/space.jpg')
+}
+
+.card-2{
+    background-image: url('../static/img/ocean.jpg')
+}
+
+.card-3{
+    background-image: url('../static/img/Jungle-Rot.jpg')
+}
+
+
+.box h1{
+    padding: 10px;
+    color: white;
+}
+
+.box h1:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+
+
+.box p{
+    padding: 10px;
+    color: white;
+}
+.box p:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.box a{
+    background: black;
+    color: white;
+    padding: 15px 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box:hover{
+    background-color: rgb(34, 187, 187);
+    transition: 0.5s;
+}
+
+.box a:hover{
+    background-color: rgb(128, 92, 92);
+    transition: 0.5s;
+}
+
+.calchead {
+    margin-left: 30%;
+    margin-top: 6%;
+    color: cornflowerblue;
+}

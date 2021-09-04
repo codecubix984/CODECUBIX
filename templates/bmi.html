@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="menu_bar">
+        <h1 class="logo">CODE<span>CUBIX</span></h1>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/mycreation">My Creation<i class="fas fa-caret-down"></i> </a></li>
+            <li><a href="#">Quiz code</a></li>
+            <li><a href="#">Latest Quiz</a></li>
+            <li><a href="#">About me</a></li>
+        </ul>
+    </div>
+    <div class="bmi">
+    <form action="/bmicalc" method="POST">
+        <h3>BMICALC</h3>
+        <input type="number" name="height" id="" placeholder="height in centimeter" min="80" max="200">
+        <input type="number" name="weight" id="" placeholder="weight in kg" min="20" max="150">
+        <button type="submit">Submit</button>
+    </form>
+    {{message}}
+   </div>
+</body>
+</html>
