@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/comments" method="POST">
+        <input type="text" name="userinp" id="" placeholder="type your message here...">
+        <input type="text" name="name" id="" placeholder="name">
+        <button type="submit">submit</button>
+    </form>
+    <div class="db">
+    <table>
+
+        <tr>
+            <th>Message</th>
+            <th>Name</th>
+        </tr>
+    {%for record in records%}
+    <tr>
+        <td>{{record[0]}}</td>
+        <td>{{record[1]}}</td>
+    </tr>
+    {%endfor%}
+    </table>
+</div>
+</body>
+</html>
