@@ -159,7 +159,8 @@ body{
     background: none;
     border: none;
     border-bottom: solid;
-    color: rgb(53, 48, 48);
+    color: rgb(206, 206, 206);
+    font-weight: 20px;
 }
 
 .bmi ::-webkit-input-placeholder{
@@ -268,4 +269,33 @@ body{
     margin-left: 30%;
     margin-top: 6%;
     color: cornflowerblue;
+}
+
+.quiz {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(43, 41, 41);
+    margin-left: 32%;
+    margin-top: 10%;
+    border-radius: 10;
+    border: solid rgb(81, 233, 76) 10px;
+}
+
+.rad {
+    margin-left: 50%;
+    line-height: 30px;
+    color: rgb(3, 180, 3);
+}
+
+.p{
+    margin-left: 25%;
+}
+
+.db{
+    border: solid rgb(47, 231, 170) 5px;
+}
+
+.db table,th,td{
+    border: solid white 3px;
+    color: yellow;
 }
